@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FireFly</title>
+</head>
+<body>
+    <main>
+        <div class="main"><button class="Prijavi" onclick="Prijavi()">Prijavi Požar</button>
+            <button class="Prijava" onclick="Prijava()">Prijavi se</button>
+            <a href=""><button class="glStr">Nastavi kao gost</button></a></div>
+        <div class="form">
+            <form class="form1">
+                <h1>PRIJAVA</h1>
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+                <button class="prijaviSe">Prijavi</button>
+                <p>Nemaš račun? <a onclick="registracija()" class="regHref">Registruj se</a></p>
+                <a class="nazad">Vrati se nazad</a>
+            </form>
+            <form class="form2">
+                <h1>REGISTRACIJA</h1>
+                <input type="text" placeholder="Ime i prezime">
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+                <button class="prijaviSe">Prijavi</button>
+                <a class="nazad">Vrati se nazad</a>
+            </form>
+        </div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
