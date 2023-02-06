@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: overpass;
+}
+body{
+    background-color: crimson;
+}
+.view{
+    height: 100vh;
+    font-size: 18px;
+    background-color: white;
+    width: 1120px;
+    padding: 20px;
+    margin: 0 auto;
+    display: none;
+}
+.navigacija{
+    position: absolute;
+    z-index: 100;
+    bottom: 5vh;
+    left: 50vw;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transform: translateX(-50%);
+}
+.strelica{
+    font-size: 50px;
+    position: absolute;
+    top: 50vh;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.strelica svg{
+    background-color: aliceblue;
+
+}
+.lijevo{
+    left: 3vw;
+}
+.desno{
+    right: 3vw;
+}
+.navigacija input{
+    width: 20px;
+    height: 20px;
+}
